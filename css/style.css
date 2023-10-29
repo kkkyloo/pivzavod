@@ -13,32 +13,29 @@ body {
     -ms-user-select: none;
     user-select: none; */
     background-color: #272727;
-    src: url("../font/Montserrat-Bold.ttf") format("ttf");
     font-family: 'Montserrat', sans-serif;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 a {
-    color: #EEEAE0; 
-    text-decoration: none; 
-   }
-   a:hover {
-    color: #b9afaf; 
-   }
+    color: #EEEAE0;
+    text-decoration: none;
+}
 
-   body, html{
+a:hover {
+    color: #b9afaf;
+}
+
+body,
+html {
     max-width: 99.2% !important;
-  }
+}
 
 
-
-  
-/* @font-face {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-display: swap;
-    src: url("../font/Montserrat-Bold.ttf") format("ttf");
-} */
+@font-face {
+    font-family: "Montserrat";
+    src: url("../font/Montserrat-Bold.woff2");
+}
 
 img {
     pointer-events: none;

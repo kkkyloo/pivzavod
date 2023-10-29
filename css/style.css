@@ -14,7 +14,7 @@ body {
     user-select: none; */
     background-color: #272727;
     font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
+    
 }
 
 a {
@@ -44,6 +44,7 @@ a:hover {
 body,
 html {
     max-width: 99.2% !important;
+    overflow-x: hidden;
 }
 
 

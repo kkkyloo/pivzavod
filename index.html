@@ -17,8 +17,7 @@
 
 <body>
   <div class="pulse">
-    <a href=/#contact><img class="pulse"
-        src="images/email.png" alt="сообщение"></a>
+    <a href=/#contact><img class="pulse" src="images/email.png" alt="сообщение"></a>
   </div>
 
   <main>
@@ -63,13 +62,13 @@
       </div>
     </nav>
 
-    <div class="col-12" id="home">
+    <div class="home col-12" id="home">
       <img src="images/main.webp" class="img" alt="Пиво на столе в кружках"
         style="width: 101%; height: 66vh; object-fit: cover; filter: brightness(75%)">
       <div class="carousel-caption caption">ВАРИМ ПИВО<br>С 1904 ГОДА</div>
     </div>
 
-    <div class="row">
+    <div class="about row">
 
       <div class="col-6" style="color: #EEEAE0;" id="about">
         <div class="col" style="font-size: 1.6vw; margin-left: 4vw; margin-top: 4vh;">
@@ -90,7 +89,7 @@
 
     </div>
 
-    <div class="row text-center" id="pivo">
+    <div class="pivo row text-center" id="pivo">
       <div class="col-12" style="color: #EEEAE0; font-size: 2vw; margin-top: 4vh;">
         Наша продукция
       </div>
@@ -103,7 +102,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="history row">
 
       <div class="col-6" style="color: #EEEAE0;" id="history">
         <div class="col" style="font-size: 1.6vw; margin-top: 10vh; margin-left: 4vw;">История</div>
@@ -131,10 +130,18 @@
         Контакты
       </div>
       <div class="col" style="margin-top: 2.8vh; margin-left: 2vw;">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10797.97414038575!2d40.1020087!3d47.4218191!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e24935fac38593%3A0x558ffb81f2b98699!2z0J3QvtCy0L7Rh9C10YDQutCw0YHRgdC60L7QtSDQn9C40LLQviwg0JfQsNCy0L7QtA!5e0!3m2!1sru!2sru!4v1698584262563!5m2!1sru!2sru"
-          width="100%" height="400" style="object-fit: cover;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div style="position:relative;overflow:hidden;"><a
+            href="https://yandex.ru/maps/org/yuzhny_pivovar/1361636945/?utm_medium=mapframe&utm_source=maps"
+            style="color:#EEEAE0;font-size:12px;position:absolute;top:0px;">Южный пивовар</a><a
+            href="https://yandex.ru/maps/238/novocherkassk/category/brewery/184106776/?utm_medium=mapframe&utm_source=maps"
+            style="color:#EEEAE0;font-size:12px;position:absolute;top:14px;">
+            Пивоварня, пивоваренный завод в
+            Новочеркасске</a>
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?from=mapframe&ll=40.103847%2C47.421868&mode=search&oid=1361636945&ol=biz&z=17.09"
+            width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;">
+          </iframe>
+        </div>
       </div>
       <div class="col text-center"
         style="font-size: 1.3vw; margin-top: 145px;  margin-left: 4vw; line-height: 3vh; width: 86%;">
@@ -149,13 +156,35 @@
       </div>
     </div>
 
+
+    <div class="container-fluid" style="width:560px;height:600px; margin-top: 4vh;"><iframe
+        style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box"
+        src="https://yandex.ru/maps-reviews-widget/1361636945?comments"></iframe><a
+        href="https://yandex.ru/maps/org/yuzhny_pivovar/1361636945/" target="_blank"
+        style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Южный
+        пивовар на карте Новочеркасска — Яндекс Карты</a></div>
+
+
+
+
+
+
     <div class="footer row text-center"
       style="color: #EEEAE0; margin-top: 2vw; height: 6vw; width: 103%; background-color:rgba(0, 0, 0, .43); margin-left: 0vw;">
-      <div class="col-4" style="font-size: 0.9vw;"><br><br>ООО "Южный Пивовр" 2012-2023</div>
+      <div class="col-4" style="font-size: 0.9vw;"><br><br>© ООО "Южный Пивовр" 2012-2023</div>
       <div class="col-4 hover-image-scale" style="margin-top: 3vh;"><a href="#home"><img class="up" src="images/up.webp"
             alt="Значок вверх" style="width: 3vw;"></a></div>
       <div class="col-4" style="font-size: 0.9vw;"><br><br>Новочеркасск, Ул. Фрунзе, 100</div>
     </div>
+
+
+
+
+
+
+
+
+
   </main>
 
   <script src="js/bootstrap.min.js"></script>

@@ -1,0 +1,49 @@
+.caption {
+    line-height: 3.7vw;
+    font-size: 3vw;
+    text-align: start;
+    top: 3vh;
+    left: 21vw;
+    color: #EEEAE0 !important;
+}
+
+body {
+    /* -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none; */
+    background-color: #272727;
+    src: url("../font/Montserrat-Bold.ttf") format("ttf");
+    font-family: 'Montserrat', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+a {
+    color: #EEEAE0; 
+    text-decoration: none; 
+   }
+   a:hover {
+    color: #b9afaf; 
+   }
+
+   body, html{
+    max-width: 99.2% !important;
+  }
+
+
+
+  
+/* @font-face {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../font/Montserrat-Bold.ttf") format("ttf");
+} */
+
+img {
+    pointer-events: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

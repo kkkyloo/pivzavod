@@ -50,6 +50,9 @@ html {
 @font-face {
     font-family: "Montserrat";
     src: url("../font/Montserrat-Bold.woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
 
 .img {

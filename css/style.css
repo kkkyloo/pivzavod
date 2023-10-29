@@ -26,6 +26,21 @@ a:hover {
     color: #b9afaf;
 }
 
+.up {
+    transition: 0.4s;
+    display: inline;
+    
+}
+
+.up:hover {
+    transform: scale(1.1);
+}
+
+.tel{
+    text-decoration:underline;
+
+}
+
 body,
 html {
     max-width: 99.2% !important;
@@ -37,7 +52,7 @@ html {
     src: url("../font/Montserrat-Bold.woff2");
 }
 
-img {
+.img {
     pointer-events: none;
     -moz-user-select: none;
     -webkit-user-select: none;

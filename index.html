@@ -17,6 +17,30 @@
 
 <body>
   <main>
+    <div class="modal fade img" id="staticBackdrop" data-bs-theme="dark" data-bs-backdrop="static" data-bs-keyboard="false"
+      tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="color: #EEEAE0; opacity: 0.9;">
+      <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row text-center">
+              <div class="col-12" style="font-size: 3vw; margin-top: 14%;">
+                ЮЖНЫЙ<br>ПИВОВАР
+              </div>
+              <div class="col-12" style="margin-top: 3%; font-size: 1.3vw;">
+                ВАМ ИСПОЛНИЛОСЬ 18 ЛЕТ?
+              </div>
+              <div class="col-12" style="margin-top: 1%; font-size: 1.3vw; width: 100%; height: auto;">
+                <button type="button" id="button" class="btn btn-lg  btn-outline-success yes" data-bs-dismiss="modal"
+                  style="font-size: 1.3vw; width: 5vw; height: auto;">ДА</button>
+                <button type="button" class="btn btn-outline-danger btn-lg"
+                  style="font-size: 1.3vw; width: 5vw; height: auto;">НЕТ</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <nav class="navbar fixed-left" style="background-color:rgba(0, 0, 0, .43); color: #EEEAE0;">
       <div class="container-fluid">
         <div class="row">
@@ -24,8 +48,10 @@
               href="#home">ЮЖНЫЙ<br>ПИВОВАР</a></div>
           <div class="col-12 text-center" style="font-size: 1vw; margin-top: 28vh;"><a href="#about">О НАС</a></div>
           <div class="col-12 text-center" style="font-size: 1vw; margin-top: 5vh;"><a href="#pivo">ПИВО</a></div>
-          <div class="col-12 text-center" style="font-size: 1vw; margin-top: 5vh;"><a href="#history">ИСТОРИЯ</a></div>
-          <div class="col-12 text-center" style="font-size: 1vw; margin-top: 5vh;"><a href="#contact">КОНТАКТЫ</a></div>
+          <div class="col-12 text-center" style="font-size: 1vw; margin-top: 5vh;"><a href="#history">ИСТОРИЯ</a>
+          </div>
+          <div class="col-12 text-center" style="font-size: 1vw; margin-top: 5vh;"><a href="#contact">КОНТАКТЫ</a>
+          </div>
         </div>
       </div>
       </div>
@@ -124,6 +150,22 @@
   </main>
 
   <script src="js/bootstrap.min.js"></script>
+  <script>
+    document.querySelector("#button").addEventListener("click", () => {
+      localStorage.setItem('selectedTheme', 'yes');
+    })
+
+    let lastClick = localStorage.getItem('selectedTheme');
+
+    if (lastClick) {
+      if (!lastClick.includes('yes')) {
+        localStorage.setItem('lastClick', 'yes');
+      }
+    } else {
+      var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'), {})
+      myModal.toggle()
+    }
+  </script>
 </body>
 
 </html>

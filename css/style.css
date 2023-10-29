@@ -29,15 +29,15 @@ a:hover {
 .up {
     transition: 0.4s;
     display: inline;
-    
+
 }
 
 .up:hover {
     transform: scale(1.1);
 }
 
-.tel{
-    text-decoration:underline;
+.tel {
+    text-decoration: underline;
 
 }
 

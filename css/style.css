@@ -150,3 +150,131 @@ html {
         opacity: 0;
     }
 }
+
+.mob-nav{
+    display: none;
+   }
+
+
+@media(max-width: 768px){
+    body,
+    html {
+        max-width: 100% !important;
+        overflow-x: hidden;
+    }
+    .pulse {
+        width: 12vw !important;
+        height: 12vw !important;
+        right: 6vw !important;
+       }
+   .navbar{
+    display: none;
+   }
+   .mob-nav{
+    display: block;
+   }
+   .main_img{
+    width: 100% !important; 
+    height: 50vh !important;
+    filter: brightness(80%) !important;
+   }
+   .caption{
+    position: relative;
+    top: -82vw;
+    font-size: 7vw;
+    line-height: 9vw;
+    left: 5vw;
+   }
+   .about_title{
+    font-size: 7vw !important;
+    margin-top: -14vw !important;
+   }
+   .about_text{
+    font-size: 3vw !important;
+    margin-left: 4vw !important;
+   }
+   .about_img{
+    margin-top: 6vw !important; 
+    width: 100% !important; 
+    height: 30vh !important;
+    filter: brightness(80%) !important;
+   }
+   .pivo_title{
+    font-size: 7vw !important;
+    margin-top: 5vw !important;
+   }
+   .pivo_container{
+    margin-left: 7vw !important; 
+    width: 91% !important;
+   }
+   .pivo_name{
+    display: none;
+   }
+   .alcohol{
+    font-size: 3vw !important;
+    margin-top: 15vh !important;
+   }
+   .pivo_text{
+    font-size: 4vw !important;
+   }
+   .history_title{
+    font-size: 7vw !important;
+    margin-top: 6vw !important;
+   }
+   .history_text{
+    font-size: 3vw !important;
+    margin-left: 4vw !important;
+   }
+   .history_img{
+    margin-top: 6vw !important; 
+    width: 100% !important; 
+    height: 30vh !important;
+    filter: brightness(80%) !important;
+   }
+   .contact_title{
+    font-size: 7vw !important;
+    margin-top: 4vw !important;
+   }
+   .contact_map_container{
+    margin-left: 5vw !important;
+   }
+   .contact_map{
+    height: 80vw !important;
+    width: 90% !important;
+   }
+   .contact_deal{
+    font-size: 6vw !important;
+    line-height: 9vw !important;
+    margin-left: 6vw !important;
+   }
+   .contact_nummail{
+    font-size: 5vw !important;
+    line-height: 9vw !important;
+    margin-left: 0vw !important;
+   }
+   .contact_tel_img{
+    width: 4vw !important;
+   }
+   .contact_email_img{
+    width: 5vw !important;
+   }
+   .contact_wp_img{
+    width: 15vw !important;
+    margin-top: -10vw !important;
+    margin-left: -2vw !important;
+   }
+   .footer{
+    width: 100% !important;
+    height: 80vw !important;
+   }
+   .footer_text{
+    font-size: 3vw !important;
+    margin-left: 0vw !important;
+   }
+   .footer_img{
+    width: 15vw !important;
+    margin-left: 0vw !important;
+   }
+}
+
+

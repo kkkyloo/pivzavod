@@ -64,19 +64,51 @@
       </div>
     </nav>
 
+    
+    <nav class="mob-nav" style="background-color:rgba(0, 0, 0, .43); margin-top: -25vw;">
+      <div class="container text-center">
+        <div class="row-2 p-3">
+          <div class="col-12 navbar-brand" style="margin-top: 4vw; font-size: 7vw;"><a href="#home">ЮЖНЫЙ<br>ПИВОВАР</a></div>
+          </div>
+        </div>
+        <div class="row-1 p-3 nav-mob text-center">
+          <div class="col">
+            <div class="col-12 text-center" style="font-size: 4vw; "><a href="#about">О НАС</a></div>
+          </div>
+          <div class="col">
+            <div class="col-12 text-center" style="font-size: 4vw; margin-top: 6vw;"><a href="#pivo">ПИВО</a></div>
+          </div>
+          <div class="col">
+            <div class="col-12 text-center" style="font-size: 4vw; margin-top: 6vw;"><a href="#history">ИСТОРИЯ</a>
+            </div>
+          <div class="col p-3">
+            <div class="col-12 text-center" style="font-size: 4vw; margin-top: 2vw;"><a href="#contact">КОНТАКТЫ</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+    
+
     <div class="home col-12" id="home">
-      <img src="images/main.webp" class="img" alt="Пиво на столе в кружках"
+      <img src="images/main.webp" class="img main_img" alt="Пиво на столе в кружках"
         style="width: 101%; height: 66vh; object-fit: cover; filter: brightness(70%)">
       <div class="caption">ВАРИМ ПИВО<br>С 1904 ГОДА</div>
     </div>
 
     <div class="about row">
-
-      <div class="col-6" id="about">
-        <div class="col" style="font-size: 1.6vw; margin-left: 4vw; margin-top: 4vh;">
+      <div class="col-12 col-md-6" id="about">
+        <div class="col about_title" style="font-size: 1.6vw; margin-left: 4vw; margin-top: 4vh;">
           О компании
         </div>
-        <div class="col" style="font-size: 0.9vw; margin-left: 4vw; margin-top: 2vh; line-height: 3vh; width: 87%;">
+        <div class="col about_text" style="font-size: 0.9vw; margin-left: 4vw; margin-top: 2vh; line-height: 3vh; width: 87%;">
           Новочеркасский пивоваренный завод с 1904 года производит немецкое живое пиво по традиционному рецепту.
           <br>Пивзавод является архитектурным и культурным наследием города.
           <br>Ежегодная производительность завода — более 500 тысяч декалитров пива, которое реализуется в Новочеркасске
@@ -84,18 +116,18 @@
         </div>
       </div>
 
-      <div class="col-6">
-        <img src="images/building.webp" class="img" alt="Пивоваренный завод по улице Фрунзе 100"
+      <div class="col-12 col-md-6">
+        <img src="images/building.webp" class="img about_img" alt="Пивоваренный завод по улице Фрунзе 100"
           style="width: 102%; height: 35vh; object-fit: cover; filter: brightness(80%);">
       </div>
 
     </div>
 
     <div class="pivo row text-center" id="pivo">
-      <div class="col-12" style="font-size: 2vw; margin-top: 4vh;">
+      <div class="col-12 pivo_title" style="font-size: 2vw; margin-top: 4vh;">
         Наша продукция
       </div>
-      <div class="row select" style="margin-top: 4vh; margin-left: 1vw; font-size: 1vw;">
+      <div class="row select pivo_name" style="margin-top: 4vh; margin-left: 1vw; font-size: 1vw;">
         <div class="col">ПЛАТОВСКОЕ</div>
         <div class="col">ЕРМАК</div>
         <div class="col">КАЗАЧЬЕ</div>
@@ -103,50 +135,48 @@
         <div class="col">ВЕНСКОЕ</div>
       </div>
 
-      <div class="row img" style="margin-top: 4vh;  margin-left: 1.5vw; width: 97%;">
-        <div class="col">
+      <div class="row gy-4 img pivo_container" style="margin-top: 4vh;  margin-left: 1.5vw; width: 97%;">
+        <div class="col-8 col-md">
           <img src="images/platovskoe2.png" alt="Пиво Ермак" style="width: 100%; object-fit: cover;">
         </div>
-        <div class="col-1" style="font-size: 0.7vw;  margin-right: 0vw; margin-top: -0.1vh;">
+        <div class="col-3 col-md-1 alcohol" style="font-size: 0.7vw;  margin-right: 0vw; margin-top: -0.1vh;">
           АЛКОГОЛЬ
           <img src="images/47.png" alt="Пиво Ермак" style="width: 65%; margin-top: 1.5vh;">
           <div class="plot" style="margin-top: 1.5vh;">ПЛОТНОСТЬ</div>
           <img src="images/47.png" alt="Пиво Ермак" style="width: 65%; margin-top: 1.5vh;">
         </div>
 
-        <div class="col">
+        <div class="col-8 col-md">
           <img src="images/ermak2.png" alt="Платовское пиво" style="width: 100%; object-fit: cover;" loading="lazy">
         </div>
-        <div class="col-1" style="font-size: 0.7vw;  margin-right: 0vw; margin-top: -0.1vh;">
+        <div class="col-3 col-md-1 alcohol" style="font-size: 0.7vw;  margin-right: 0vw; margin-top: -0.1vh;">
           АЛКОГОЛЬ
           <img src="images/47.png" alt="Пиво Ермак" style="width: 65%; margin-top: 1.5vh;">
           <div class="plot" style="margin-top: 1.5vh;">ПЛОТНОСТЬ</div>
           <img src="images/47.png" alt="Пиво Ермак" style="width: 65%; margin-top: 1.5vh;">
         </div>
-        <div class="col">
+        <div class="col-8 col-md">
           <img src="images/platovskoe2.png" alt="Жигулевское пиво" style="width: 100%; object-fit: cover;" loading="lazy">
         </div>
-        <div class="col-1" style="font-size: 0.7vw;  margin-right: 0vw; margin-top: -0.1vh;">
+        <div class="col-3 col-md-1 alcohol" style="font-size: 0.7vw;  margin-right: 0vw; margin-top: -0.1vh;">
           АЛКОГОЛЬ
           <img src="images/47.png" alt="Пиво Ермак" style="width: 65%; margin-top: 1.5vh;">
           <div class="plot" style="margin-top: 1.5vh;">ПЛОТНОСТЬ</div>
           <img src="images/47.png" alt="Пиво Ермак" style="width: 65%; margin-top: 1.5vh;">
         </div>
-        <div class="col">
+        <div class="col-8 col-md">
           <img src="images/ermak2.png" alt="Жигулевское пиво" style="width: 100%; object-fit: cover;" loading="lazy">
         </div>
-        <div class="col-1" style="font-size: 0.7vw;  margin-right: 0vw; margin-top: -0.1vh;">
+        <div class="col-3 col-md-1 alcohol" style="font-size: 0.7vw;  margin-right: 0vw; margin-top: -0.1vh;">
           АЛКОГОЛЬ
           <img src="images/47.png" alt="Пиво Ермак" style="width: 65%; margin-top: 1.5vh;">
           <div class="plot" style="margin-top: 1.5vh;">ПЛОТНОСТЬ</div>
           <img src="images/47.png" alt="Пиво Ермак" style="width: 65%; margin-top: 1.5vh;">
         </div>
-        <div class="col">
+        <div class="col-8 col-md">
           <img src="images/platovskoe2.png" alt="Жигулевское пиво" style="width: 100%; object-fit: cover;" loading="lazy">
         </div>
-
-
-        <div class="col-1" style="font-size: 0.7vw;  margin-right: 0vw; margin-top: -0.1vh;">
+        <div class="col-3 col-md-1 alcohol" style="font-size: 0.7vw;  margin-right: 0vw; margin-top: -0.1vh;">
           АЛКОГОЛЬ
           <img src="images/47.png" alt="Пиво Ермак" style="width: 65%; margin-top: 1.5vh;">
           <div class="plot" style="margin-top: 1.5vh;">ПЛОТНОСТЬ</div>
@@ -155,7 +185,7 @@
 
 
 
-        <div class="col-12 select" style=" font-size: 1.1vw; text-align: center; margin-top: 6vh;">
+        <div class="col-12 select pivo_text" style=" font-size: 1.1vw; text-align: center; margin-top: 6vh;">
           Мы поставляем живое пиво в кегах 30/50л
           <br>Доставка по Ростовской области в понедельник, среду и пятницу.
           <br>Возможен самовывоз
@@ -165,9 +195,9 @@
     </div>
 
     <div class="history row">
-      <div class="col-6" style="text-align: left;" id="history">
-        <div class="col" style="font-size: 1.6vw; margin-top: 11vh; margin-left: 4vw;">История</div>
-        <div class="col" style="font-size: 0.9vw; margin-top: 2vh;  margin-left: 4vw; line-height: 3vh; width: 86%;">
+      <div class="col-12 col-md-6" style="text-align: left;" id="history">
+        <div class="col history_title" style="font-size: 1.6vw; margin-top: 11vh; margin-left: 4vw;">История</div>
+        <div class="col history_text" style="font-size: 0.9vw; margin-top: 2vh;  margin-left: 4vw; line-height: 3vh; width: 86%;">
           Фирма «Братья О. и Г. Базенер» построила в Новочеркасске пивоваренный завод в 1904 году.
           <br>В 1916 году из-за гонений на немцев Герман Базенер эмигрировал в Персию, а завод во время гражданской
           войны был закрыт и
@@ -178,8 +208,8 @@
           <br>В итоге пивоваренеый завода открылся в феврале 1946 года.
         </div>
       </div>
-      <div class="col-6">
-        <img src="images/history.webp" class="img" alt="Цистерна с пивом"
+      <div class="col-12 col-md-6">
+        <img src="images/history.webp" class="img history_img" alt="Цистерна с пивом"
           style="margin-top: 6vh; width: 105%; height: 50vh; object-fit: cover; filter: brightness(80%);" loading="lazy">
       </div>
 
@@ -188,10 +218,10 @@
 
 
     <div class="contact row" id="contact">
-      <div class="col-12 text-center" style="font-size: 2vw; margin-top: 4vh;">
+      <div class="col-12 text-center contact_title" style="font-size: 2vw; margin-top: 4vh;">
         Контакты
       </div>
-      <div class="col" style="margin-top: 2.8vh; margin-left: 2vw;">
+      <div class="col-12 col-md contact_map_container" style="margin-top: 2.8vh; margin-left: 2vw;">
         <div style="position:relative;overflow:hidden;"><a
             href="https://yandex.ru/maps/org/yuzhny_pivovar/1361636945/?utm_medium=mapframe&utm_source=maps"
             style="color:#EEEAE0;font-size:12px;position:absolute;top:0px;">Южный пивовар</a>
@@ -200,30 +230,30 @@
             style="color:#EEEAE0;font-size:12px;position:absolute;top:14px;">
             Пивоварня, пивоваренный завод в
             Новочеркасске</a>
-          <iframe loading="lazy"
+          <iframe loading="lazy" class="contact_map"
             src="https://yandex.ru/map-widget/v1/?from=mapframe&ll=40.103847%2C47.421868&mode=search&oid=1361636945&ol=biz&z=17.09"
             width="100%" frameborder="1" allowfullscreen="true" style="position:relative;  height: 25vw">
           </iframe>
         </div>
       </div>
-      <div class="col text-center"
+      <div class="col-12 col-md text-center contact_deal"
         style="font-size: 1.3vw; margin-top: 8vw;  margin-left: 4vw; line-height: 3vh; width: 86%;">
         По вопросам сотрудничества:
-        <div class="col-12 text-center select" style="font-size: 1.3vw; margin-top: 4vh;  line-height: 3vh; width: 100%;">
+        <div class="col-12 text-center select contact_nummail" style="font-size: 1.3vw; margin-top: 4vh;  line-height: 3vh; width: 100%;">
 
-          <a href="tel:+79034015529" class="">
-            <img class="no_select" src="images/call.png" alt="Значок ватсапа" style="width: 1vw; margin-right: 5px; margin-top: -4px;">
+          <a href="tel:+79034015529">
+            <img class="no_select contact_tel_img" src="images/call.png" alt="Значок ватсапа" style="width: 1vw; margin-right: 5px; margin-top: -4px;">
             +7 903 401-55-29
           </a>
 
           <br>
           <a href="mailto:pivovar.zavod@mail.ru" class="pivovar.zavod@mail.ru">
-            <img class="no_select" src="images/email.png" alt="Значок почты" style="width: 1.5vw; margin-right: 5px;">pivovar.zavod@mail.ru</p>
+            <img class="no_select contact_email_img" src="images/email.png" alt="Значок почты" style="width: 1.5vw; margin-right: 5px;">pivovar.zavod@mail.ru</p>
           </a>
 
           <br>
           <a href="https://wa.me/79034015529">
-            <img  src="images/wp.webp" class="up" alt="Значок ватсапа" style="width: 3vw;">
+            <img src="images/wp.webp" class="up contact_wp_img" alt="Значок ватсапа" style="width: 3vw;">
           </a>
 
         </div>
@@ -239,10 +269,10 @@
 
     <div class="footer row text-center select"
       style=" margin-top: 2vw; height: 6vw; width: 103%; background-color:rgba(0, 0, 0, .43); margin-left: 0vw;">
-      <div class="col-4" style="font-size: 0.9vw;  margin-top: -0.3vw;"><br><br>© 2012-2023 ООО "Южный Пивовар"</div>
-      <div class="col-4 hover-image-scale" style="margin-top: 3vh;"><a href="#home"><img class="up" src="images/up.webp"
+      <div class="col-12 col-md-4 footer_text" style="font-size: 0.9vw; margin-top: -0.3vw;"><br><br>© 2012-2023 ООО "Южный Пивовар"</div>
+      <div class="col-12 col-md-4 hover-image-scale" style="margin-top: 3vh;"><a href="#home"><img class="up footer_img" src="images/up.webp"
             alt="Значок вверх" style="width: 3vw; margin-left: -35px;"></a></div>
-      <div class="col-4" style="font-size: 0.9vw; margin-top: -1vw; margin-left: -27px;"><br><br>346410, Ростовская
+      <div class="col-12 col-md-4 footer_text" style="font-size: 0.9vw; margin-top: -1vw; margin-left: -27px;"><br><br>346410, Ростовская
         область,<br> г.Новочеркасск, ул. Фрунзе д.100</div>
     </div>
 

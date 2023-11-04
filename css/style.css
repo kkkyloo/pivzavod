@@ -171,6 +171,7 @@ html {
    }
    .mob-nav{
     display: block;
+    background-color:rgba(0, 0, 0, .3) !important;
    }
    .main_img{
     width: 100% !important; 
@@ -189,13 +190,12 @@ html {
    } */
    .about{
     margin-top: -18vw !important;
-
    }
    .about_title{
-    font-size: 7vw !important;
+    font-size: 8vw !important;
    }
    .about_text{
-    font-size: 3vw !important;
+    font-size: 4vw !important;
     margin-left: 4vw !important;
    }
    .about_img{
@@ -205,10 +205,11 @@ html {
     filter: brightness(80%) !important;
    }
    .pivo_title{
-    font-size: 7vw !important;
+    font-size: 8vw !important;
     margin-top: 5vw !important;
    }
    .pivo_container{
+    margin-top: 0vw !important;
     margin-left: 7vw !important; 
     width: 91% !important;
    }
@@ -217,17 +218,17 @@ html {
    }
    .alcohol{
     font-size: 3vw !important;
-    margin-top: 15vh !important;
+    margin-top: 22vw !important;
    }
    .pivo_text{
     font-size: 4vw !important;
    }
    .history_title{
-    font-size: 7vw !important;
+    font-size: 8vw !important;
     margin-top: 6vw !important;
    }
    .history_text{
-    font-size: 3vw !important;
+    font-size: 4vw !important;
     margin-left: 4vw !important;
    }
    .history_img{
@@ -237,7 +238,7 @@ html {
     filter: brightness(80%) !important;
    }
    .contact_title{
-    font-size: 7vw !important;
+    font-size: 8vw !important;
     margin-top: 4vw !important;
    }
    .contact_map_container{
@@ -248,12 +249,12 @@ html {
     width: 90% !important;
    }
    .contact_deal{
-    font-size: 6vw !important;
+    font-size: 7vw !important;
     line-height: 9vw !important;
     margin-left: 6vw !important;
    }
    .contact_nummail{
-    font-size: 5vw !important;
+    font-size: 5.4vw !important;
     line-height: 9vw !important;
     margin-left: 0vw !important;
    }
@@ -273,7 +274,8 @@ html {
     height: 80vw !important;
    }
    .footer_text{
-    font-size: 3vw !important;
+    font-size: 4vw !important;
+    margin-top: -5vw !important;
     margin-left: 0vw !important;
    }
    .footer_img{

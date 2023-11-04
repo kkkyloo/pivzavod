@@ -81,6 +81,15 @@ html {
     font-size: 3vw !important;
     line-height: 7vh;
    }
+.modal_title{
+    font-family: 'Dobrozrachniy', sans-serif !important;
+    letter-spacing: 0.1vw !important;
+    font-size: 5vw !important;
+    line-height: 11vh;
+}
+
+
+
 
 .img {
     pointer-events: none;
@@ -180,16 +189,18 @@ html {
     overflow-x: hidden;
     }
     .modal_title{
-        font-size: 10vw !important;
-        margin-top: 30vh !important;
+        font-size: 18vw !important;
+        margin-top: 28vh !important;
+        line-height: 11vh;
     }
     .modal_age{
+        margin-top: 2vh !important;
         font-size: 5vw !important;
     }
     .modal_button{
         font-size: 4vw !important;
         width: 25vw !important;
-        margin: 5vw !important;
+        margin: 3vw !important;
     }
 
 

@@ -154,6 +154,9 @@ html {
     display: none;
    }
 
+   .contact_nummail{
+    line-height: 2vw !important;
+   }
 
 @media(max-width: 768px){
     body,
@@ -187,7 +190,7 @@ html {
     left: 5vw;
    }
    .about{
-    margin-top: -18vw !important;
+    margin-top: -20vw !important;
    }
    .about_title{
     font-size: 8vw !important;

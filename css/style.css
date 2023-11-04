@@ -175,28 +175,27 @@ html {
    }
    .main_img{
     width: 100% !important; 
-    height: 40vh !important;
+    height: 50vh !important;
     filter: brightness(80%) !important;
+    object-position: 40% !important;
    }
    .caption{
     position: relative;
-    top: -39vh;
-    font-size: 6.6vw;
+    top: -47vh;
+    font-size: 8vw;
     line-height: 9vw;
     left: 5vw;
    }
-   /* .about_disable_about{
-    display: none !important;
-   } */
    .about{
     margin-top: -18vw !important;
    }
    .about_title{
     font-size: 8vw !important;
+    margin-left: 6vw !important;
    }
    .about_text{
     font-size: 4vw !important;
-    margin-left: 4vw !important;
+    margin-left: 6vw !important;
    }
    .about_img{
     margin-top: 6vw !important; 
@@ -217,8 +216,16 @@ html {
     display: none;
    }
    .alcohol{
-    font-size: 3vw !important;
-    margin-top: 22vw !important;
+    font-size: 3.5vw !important;
+    margin-top: 17vw !important;
+   }
+   .plot{
+    margin-left: -1.5vw !important;
+
+   }
+   .pivo_img{
+    width: 100% !important;
+    margin-left: 1.5vw !important;
    }
    .pivo_text{
     font-size: 4vw !important;
@@ -226,10 +233,11 @@ html {
    .history_title{
     font-size: 8vw !important;
     margin-top: 6vw !important;
+    margin-left: 6vw !important;
    }
    .history_text{
-    font-size: 4vw !important;
-    margin-left: 4vw !important;
+    font-size: 3.5vw !important;
+    margin-left: 6vw !important;
    }
    .history_img{
     margin-top: 6vw !important; 

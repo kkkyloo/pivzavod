@@ -70,12 +70,17 @@ html {
 @font-face {
     font-family: 'Dobrozrachniy';
     src: url('../font/Dobrozrachniy.ttf')  format('truetype');
-    /* font-weight: 700;
-    font-style: normal; */
-    /* font-display: swap; */
+    font-weight: 700;
+    font-style: normal; 
+    font-display: swap;
 }
 
-
+.navbar_title{
+    font-family: 'Dobrozrachniy', sans-serif !important;
+    letter-spacing: 0.1vw !important;
+    font-size: 3vw !important;
+    line-height: 7vh;
+   }
 
 .img {
     pointer-events: none;

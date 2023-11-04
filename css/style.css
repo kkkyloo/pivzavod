@@ -275,6 +275,7 @@ html {
    }
    .contact_map_container{
     margin-left: 5vw !important;
+    margin-top: 4vw !important;
    }
    .contact_map{
     height: 80vw !important;
@@ -284,6 +285,7 @@ html {
     font-size: 7vw !important;
     line-height: 9vw !important;
     margin-left: 6vw !important;
+    margin-top: 4vw !important;
    }
    .contact_nummail{
     font-size: 5.4vw !important;

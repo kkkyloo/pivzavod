@@ -67,6 +67,16 @@ html {
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Dobrozrachniy';
+    src: url('../font/Dobrozrachniy.ttf')  format('truetype');
+    /* font-weight: 700;
+    font-style: normal; */
+    /* font-display: swap; */
+}
+
+
+
 .img {
     pointer-events: none;
     -moz-user-select: none;
@@ -165,8 +175,8 @@ html {
     overflow-x: hidden;
     }
     .pulse {
-    width: 12vw !important;
-    height: 12vw !important;
+    width: 7vh !important;
+    height: 7vh !important;
     right: 6vw !important;
     }
    .navbar{
@@ -175,6 +185,12 @@ html {
    .mob-nav{
     display: block;
     background-color:rgba(0, 0, 0, .3) !important;
+   }
+   .navbar_title{
+    font-family: 'Dobrozrachniy', sans-serif !important;
+    letter-spacing: 0.5vw !important;
+    font-size: 9vw !important;
+    line-height: 10vw;
    }
    .main_img{
     width: 100% !important; 
@@ -190,7 +206,7 @@ html {
     left: 5vw;
    }
    .about{
-    margin-top: -20vw !important;
+    margin-top: -14vh !important;
    }
    .about_title{
     font-size: 8vw !important;
@@ -224,7 +240,6 @@ html {
    }
    .plot{
     margin-left: -1.5vw !important;
-
    }
    .pivo_img{
     width: 100% !important;
@@ -232,10 +247,11 @@ html {
    }
    .pivo_text{
     font-size: 4vw !important;
+    margin-top: 3vh !important;
    }
    .history_title{
     font-size: 8vw !important;
-    margin-top: 6vw !important;
+    margin-top: 4vw !important;
     margin-left: 6vw !important;
    }
    .history_text{
@@ -277,16 +293,17 @@ html {
    }
    .contact_wp_img{
     width: 15vw !important;
-    margin-top: -10vw !important;
+    margin-top: -2vh !important;
     margin-left: -2vw !important;
+    margin-bottom: 3vh !important;
    }
    .footer{
     width: 100% !important;
     height: 80vw !important;
    }
    .footer_text{
-    font-size: 4vw !important;
-    margin-top: -5vw !important;
+    font-size: 5vw !important;
+    margin-top: -9vw !important;
     margin-left: 0vw !important;
    }
    .footer_img{
@@ -297,10 +314,11 @@ html {
 
 @media(max-width: 500px){
     .main_img{
-        height: 43vh !important;
+        height: 60vh !important;
        }
        .caption{
-        top: -41.5vh;
-        font-size: 7vw;
+        top: -57.5vh;
+        font-size: 9vw;
+        line-height: 6vh;
        }
 }

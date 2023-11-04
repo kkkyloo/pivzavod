@@ -291,3 +291,13 @@ html {
     margin-left: 0vw !important;
    }
 }
+
+@media(max-width: 500px){
+    .main_img{
+        height: 43vh !important;
+       }
+       .caption{
+        top: -41.5vh;
+        font-size: 7vw;
+       }
+}

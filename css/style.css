@@ -179,6 +179,20 @@ html {
     max-width: 100% !important;
     overflow-x: hidden;
     }
+    .modal_title{
+        font-size: 10vw !important;
+        margin-top: 30vh !important;
+    }
+    .modal_age{
+        font-size: 5vw !important;
+    }
+    .modal_button{
+        font-size: 4vw !important;
+        width: 25vw !important;
+        margin: 5vw !important;
+    }
+
+
     .pulse {
     width: 7vh !important;
     height: 7vh !important;

@@ -278,6 +278,7 @@ html {
    .pivo_text{
     font-size: 4vw !important;
     margin-top: 3vh !important;
+    margin-left: -1vh !important;
    }
    .history_title{
     font-size: 8vw !important;

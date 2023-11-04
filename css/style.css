@@ -5,7 +5,6 @@
     position: absolute;
     top: 5vh;
     left: 21vw;
-    color: #EEEAE0 !important;
 }
 
 body {
@@ -16,7 +15,7 @@ body {
     background-color: #272727;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-    color: #EEEAE0;
+    color: #EEEAE0 !important;
 }
 
 .select{
@@ -159,14 +158,14 @@ html {
 @media(max-width: 768px){
     body,
     html {
-        max-width: 100% !important;
-        overflow-x: hidden;
+    max-width: 100% !important;
+    overflow-x: hidden;
     }
     .pulse {
-        width: 12vw !important;
-        height: 12vw !important;
-        right: 6vw !important;
-       }
+    width: 12vw !important;
+    height: 12vw !important;
+    right: 6vw !important;
+    }
    .navbar{
     display: none;
    }
@@ -175,19 +174,25 @@ html {
    }
    .main_img{
     width: 100% !important; 
-    height: 50vh !important;
+    height: 40vh !important;
     filter: brightness(80%) !important;
    }
    .caption{
     position: relative;
-    top: -82vw;
-    font-size: 7vw;
+    top: -39vh;
+    font-size: 6.6vw;
     line-height: 9vw;
     left: 5vw;
    }
+   /* .about_disable_about{
+    display: none !important;
+   } */
+   .about{
+    margin-top: -18vw !important;
+
+   }
    .about_title{
     font-size: 7vw !important;
-    margin-top: -14vw !important;
    }
    .about_text{
     font-size: 3vw !important;
@@ -276,5 +281,3 @@ html {
     margin-left: 0vw !important;
    }
 }
-
-

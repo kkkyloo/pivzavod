@@ -242,9 +242,7 @@
             style="color:#EEEAE0;font-size:12px;position:absolute;top:14px;">
             Пивоварня, пивоваренный завод в
             Новочеркасске</a> -->
-          <iframe loading="lazy" class="contact_map"
-            src="https://yandex.ru/map-widget/v1/?from=mapframe&ll=40.103847%2C47.421868&mode=search&oid=1361636945&ol=biz&z=17.09"
-            width="100%" frameborder="1" allowfullscreen="true" style="position:relative;  height: 25vw">
+          <iframe loading="lazy" class="contact_map" id="YandexMap" src="" width="100%" frameborder="1" allowfullscreen="true" style="position:relative;  height: 25vw">
           </iframe>
         </div>
       </div>
@@ -307,6 +305,34 @@
       myModal.toggle()
     }
   </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(initYandexMap, 5000);
+    });
+
+    document.addEventListener('scroll', initYandexMapOnEvent);
+    document.addEventListener('mousemove', initYandexMapOnEvent);
+    document.addEventListener('touchstart', initYandexMapOnEvent);
+
+    function initYandexMapOnEvent (e) {
+        initYandexMap();
+        e.currentTarget.removeEventListener(e.type, initYandexMapOnEvent);
+    }
+
+    function initYandexMap () {
+        if (window.yandexMapDidInit) {
+            return false;
+        }
+        window.yandexMapDidInit = true;
+
+        document.getElementById('YandexMap').src = 'https://yandex.ru/map-widget/v1/?from=mapframe&ll=40.103847%2C47.421868&mode=search&oid=1361636945&ol=biz&z=17.09" width="100%" frameborder="1" allowfullscreen="true" style="position:relative;  height: 25vw';
+
+    }
+
+  </script>
+
+
+
 </body>
 
 </html>

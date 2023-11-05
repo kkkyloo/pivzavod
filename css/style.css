@@ -18,11 +18,11 @@ body {
     color: #EEEAE0 !important;
 }
 
-.select{
-    user-select:text;
+.select {
+    user-select: text;
 }
 
-.no_select{
+.no_select {
     pointer-events: none;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -55,9 +55,7 @@ a:hover {
 
 body,
 html,
-img,
-body
-{
+img {
     max-width: 100% !important;
     overflow-x: hidden;
 }
@@ -74,25 +72,23 @@ body
     font-family: 'Dobrozrachniy';
     src: url('../font/Dobrozrachniy.woff2');
     font-weight: 700;
-    font-style: normal; 
+    font-style: normal;
     font-display: swap;
 }
 
-.navbar_title{
+.navbar_title {
     font-family: 'Dobrozrachniy', sans-serif !important;
     letter-spacing: 0.1vw !important;
     font-size: 3.5vw !important;
     line-height: 8vh;
-   }
-.modal_title{
+}
+
+.modal_title {
     font-family: 'Dobrozrachniy', sans-serif !important;
     letter-spacing: 0.1vw !important;
     font-size: 5vw !important;
     line-height: 11vh;
 }
-
-
-
 
 .img {
     pointer-events: none;
@@ -177,254 +173,293 @@ body
     }
 }
 
-.mob-nav{
+.mob-nav {
     display: none;
-   }
+}
 
-   .contact_nummail{
+.contact_nummail {
     line-height: 2vw !important;
-   }
+}
 
-@media(max-width: 767px){
+@media(max-width: 767px) {
+
     body,
     html {
-    max-width: 100% !important;
-    overflow-x: hidden;
+        max-width: 100% !important;
+        overflow-x: hidden;
     }
-    .modal_title{
+
+    .modal_title {
         font-size: 18vw !important;
         margin-top: 28vh !important;
         line-height: 11vh;
     }
-    .modal_age{
+
+    .modal_age {
         margin-top: 2vh !important;
         font-size: 5vw !important;
     }
-    .modal_button{
+
+    .modal_button {
         font-size: 4vw !important;
         width: 25vw !important;
         margin: 3vw !important;
     }
 
-
     .pulse {
-    width: 7vh !important;
-    height: 7vh !important;
-    right: 6vw !important;
+        width: 7vh !important;
+        height: 7vh !important;
+        right: 6vw !important;
     }
-   .navbar{
-    display: none;
-   }
-   .mob-nav{
-    display: block;
-    background-color:rgba(0, 0, 0, .3) !important;
-   }
-   .navbar_title{
-    font-family: 'Dobrozrachniy', sans-serif !important;
-    letter-spacing: 0.5vw !important;
-    font-size: 9vw !important;
-    line-height: 10vw;
-   }
-   .main_img{
-    width: 100% !important; 
-    height: 50vh !important;
-    filter: brightness(80%) !important;
-    object-position: 40% !important;
-   }
-   .caption{
-    position: relative;
-    top: -47vh;
-    font-size: 8vw;
-    line-height: 9vw;
-    left: 5vw;
-   }
-   .about{
-    margin-top: -14vh !important;
-   }
-   .about_title{
-    font-size: 8vw !important;
-    margin-left: 6vw !important;
-   }
-   .about_text{
-    font-size: 4vw !important;
-    margin-left: 6vw !important;
-   }
-   .about_img{
-    margin-top: 6vw !important; 
-    width: 100% !important; 
-    height: 30vh !important;
-    filter: brightness(80%) !important;
-   }
-   .pivo_title{
-    font-size: 8vw !important;
-    margin-top: 5vw !important;
-   }
-   .pivo_container{
-    margin-top: 0vw !important;
-    margin-left: 7vw !important; 
-    width: 91% !important;
-   }
-   .pivo_name{
-    display: none;
-   }
-   .alcohol{
-    font-size: 3.5vw !important;
-    margin-top: 17vw !important;
-   }
-   .plot{
-    margin-left: -1.5vw !important;
-   }
-   .pivo_img{
-    width: 100% !important;
-    margin-left: 1.5vw !important;
-   }
-   .pivo_text{
-    font-size: 4vw !important;
-    margin-top: 3vh !important;
-    margin-left: -1vh !important;
-   }
-   .history_title{
-    font-size: 8vw !important;
-    margin-top: 4vw !important;
-    margin-left: 6vw !important;
-   }
-   .history_text{
-    font-size: 3.5vw !important;
-    margin-left: 6vw !important;
-   }
-   .history_img{
-    margin-top: 6vw !important; 
-    width: 100% !important; 
-    height: 30vh !important;
-    filter: brightness(80%) !important;
-   }
-   .contact_title{
-    font-size: 8vw !important;
-    margin-top: 4vw !important;
-   }
-   .contact_map_container{
-    margin-left: 5vw !important;
-    margin-top: 4vw !important;
-   }
-   .contact_map{
-    height: 80vw !important;
-    width: 90% !important;
-   }
-   .contact_deal{
-    font-size: 7vw !important;
-    line-height: 9vw !important;
-    margin-left: 6vw !important;
-    margin-top: 4vw !important;
-   }
-   .contact_nummail{
-    font-size: 5.4vw !important;
-    line-height: 9vw !important;
-    margin-left: 0vw !important;
-   }
-   .contact_tel_img{
-    width: 4vw !important;
-   }
-   .contact_email_img{
-    width: 5vw !important;
-   }
-   .contact_wp_img{
-    width: 15vw !important;
-    margin-top: -2vh !important;
-    margin-left: -2vw !important;
-    margin-bottom: 3vh !important;
-   }
-   .footer{
-    width: 100% !important;
-    height: 80vw !important;
-   }
-   .footer_text{
-    font-size: 4.2vw !important;
-    margin-top: -2vh !important;
-    margin-left: 0vw !important;
-    
-   }
-   .footer_img{
-    width: 15vw !important;
-    margin-left: 0vw !important;
-   }
+
+    .navbar {
+        display: none;
+    }
+
+    .mob-nav {
+        display: block;
+        background-color: rgba(0, 0, 0, .3) !important;
+    }
+
+    .navbar_title {
+        font-family: 'Dobrozrachniy', sans-serif !important;
+        letter-spacing: 0.5vw !important;
+        font-size: 9vw !important;
+        line-height: 10vw;
+    }
+
+    .main_img {
+        width: 100% !important;
+        height: 50vh !important;
+        filter: brightness(80%) !important;
+        object-position: 40% !important;
+    }
+
+    .caption {
+        position: relative;
+        top: -47vh;
+        font-size: 8vw;
+        line-height: 9vw;
+        left: 5vw;
+    }
+
+    .about {
+        margin-top: -14vh !important;
+    }
+
+    .about_title {
+        font-size: 8vw !important;
+        margin-left: 6vw !important;
+    }
+
+    .about_text {
+        font-size: 4vw !important;
+        margin-left: 6vw !important;
+    }
+
+    .about_img {
+        margin-top: 6vw !important;
+        width: 100% !important;
+        height: 30vh !important;
+        filter: brightness(80%) !important;
+    }
+
+    .pivo_title {
+        font-size: 8vw !important;
+        margin-top: 5vw !important;
+    }
+
+    .pivo_container {
+        margin-top: 0vw !important;
+        margin-left: 7vw !important;
+        width: 91% !important;
+    }
+
+    .pivo_name {
+        display: none;
+    }
+
+    .alcohol {
+        font-size: 3.5vw !important;
+        margin-top: 17vw !important;
+    }
+
+    .plot {
+        margin-left: -1.5vw !important;
+    }
+
+    .pivo_img {
+        width: 100% !important;
+        margin-left: 1.5vw !important;
+    }
+
+    .pivo_text {
+        font-size: 4vw !important;
+        margin-top: 3vh !important;
+        margin-left: -1vh !important;
+    }
+
+    .history_title {
+        font-size: 8vw !important;
+        margin-top: 4vw !important;
+        margin-left: 6vw !important;
+    }
+
+    .history_text {
+        font-size: 3.5vw !important;
+        margin-left: 6vw !important;
+    }
+
+    .history_img {
+        margin-top: 6vw !important;
+        width: 100% !important;
+        height: 30vh !important;
+        filter: brightness(80%) !important;
+    }
+
+    .contact_title {
+        font-size: 8vw !important;
+        margin-top: 4vw !important;
+    }
+
+    .contact_map_container {
+        margin-left: 5vw !important;
+        margin-top: 4vw !important;
+    }
+
+    .contact_map {
+        height: 80vw !important;
+        width: 90% !important;
+    }
+
+    .contact_deal {
+        font-size: 7vw !important;
+        line-height: 9vw !important;
+        margin-left: 6vw !important;
+        margin-top: 4vw !important;
+    }
+
+    .contact_nummail {
+        font-size: 5.4vw !important;
+        line-height: 9vw !important;
+        margin-left: 0vw !important;
+    }
+
+    .contact_tel_img {
+        width: 4vw !important;
+    }
+
+    .contact_email_img {
+        width: 5vw !important;
+    }
+
+    .contact_wp_img {
+        width: 15vw !important;
+        margin-top: -2vh !important;
+        margin-left: -2vw !important;
+        margin-bottom: 3vh !important;
+    }
+
+    .footer {
+        width: 100% !important;
+        height: 80vw !important;
+    }
+
+    .footer_text {
+        font-size: 4.2vw !important;
+        margin-top: -2vh !important;
+        margin-left: 0vw !important;
+
+    }
+
+    .footer_img {
+        width: 15vw !important;
+        margin-left: 0vw !important;
+    }
 }
 
-@media(max-width: 500px){
-    .main_img{
+@media(max-width: 500px) {
+    .main_img {
         height: 60vh !important;
-       }
-       .caption{
+    }
+
+    .caption {
         top: -57.5vh;
         font-size: 9vw;
         line-height: 6vh;
-       }
-       .contact_wp_img{
+    }
+
+    .contact_wp_img {
         width: 15vw !important;
         margin-top: -3vh !important;
         margin-left: -2vw !important;
         margin-bottom: 3vh !important;
-       }
+    }
 }
 
 /* iphone xr */
 
-@media(max-width: 450px) and (max-height: 910px){
-    .mob-nav{
-        margin-top: -10vh !important; 
+@media(max-width: 450px) and (max-height: 910px) {
+    .mob-nav {
+        margin-top: -10vh !important;
     }
-    .navbar_title{
+
+    .navbar_title {
         margin-bottom: 1vh !important;
     }
 }
 
 /* iphone 12pro */
 
-@media(max-width: 420px) and (max-height: 870px){
-    .mob-nav{
-        margin-top: -11vh !important; 
+@media(max-width: 420px) and (max-height: 870px) {
+    .mob-nav {
+        margin-top: -11vh !important;
     }
-    .navbar_title{
+
+    .navbar_title {
         margin-bottom: 1vh !important;
     }
 }
 
 /* s8+ */
 
-@media(max-width: 420px) and (max-height: 770px){
-    .mob-nav{
-        margin-top: -12.3vh !important; 
+@media(max-width: 420px) and (max-height: 770px) {
+    .mob-nav {
+        margin-top: -12.3vh !important;
     }
-    .navbar_title{
+
+    .navbar_title {
         margin-bottom: 1.3vh !important;
     }
 }
 
 /* s20u */
 
-@media(max-width: 440px) and (max-height: 950px) and (min-height: 880px){
-    .mob-nav{
-        margin-top: -10vh !important; 
+@media(max-width: 440px) and (max-height: 950px) and (min-height: 880px) {
+    .mob-nav {
+        margin-top: -10vh !important;
     }
-    .navbar_title{
+
+    .navbar_title {
         margin-bottom: 1vh !important;
     }
 }
 
 /* se */
 
-@media(max-width: 410px) and (max-height: 730px){
-    .mob-nav{
-        margin-top: -24vw !important; 
+@media(max-width: 410px) and (max-height: 730px) {
+    .mob-nav {
+        margin-top: -24vw !important;
     }
-    .navbar_title{
+
+    .navbar_title {
         margin-bottom: 1vw !important;
     }
 }
 
 /* iphone5 */
-@media(max-width: 340px) and (max-height: 580px) and (min-height: 520px) and (min-width: 280px){
-    .mob-nav{
-        margin-top: -17vh !important; 
+@media(max-width: 340px) and (max-height: 580px) and (min-height: 520px) and (min-width: 280px) {
+    .mob-nav {
+        margin-top: -17vh !important;
     }
 }
-

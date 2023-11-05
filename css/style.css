@@ -14,7 +14,7 @@ body {
     user-select: none; */
     background-color: #272727;
     font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     color: #EEEAE0 !important;
 }
 
@@ -54,10 +54,14 @@ a:hover {
 }
 
 body,
-html {
-    max-width: 99.2% !important;
+html,
+main,
+img,
+body
+{
+    max-width: 100% !important;
+    overflow-x: hidden;
 }
-
 
 @font-face {
     font-family: "Montserrat";
@@ -182,7 +186,7 @@ html {
     line-height: 2vw !important;
    }
 
-@media(max-width: 768px){
+@media(max-width: 767px){
     body,
     html {
     max-width: 100% !important;
@@ -362,3 +366,66 @@ html {
         margin-bottom: 3vh !important;
        }
 }
+
+/* iphone xr */
+
+@media(max-width: 450px) and (max-height: 910px){
+    .mob-nav{
+        margin-top: -10vh !important; 
+    }
+    .navbar_title{
+        margin-bottom: 1vh !important;
+    }
+}
+
+/* iphone 12pro */
+
+@media(max-width: 420px) and (max-height: 870px){
+    .mob-nav{
+        margin-top: -11vh !important; 
+    }
+    .navbar_title{
+        margin-bottom: 1vh !important;
+    }
+}
+
+/* s8+ */
+
+@media(max-width: 420px) and (max-height: 770px){
+    .mob-nav{
+        margin-top: -12.3vh !important; 
+    }
+    .navbar_title{
+        margin-bottom: 1.3vh !important;
+    }
+}
+
+/* s20u */
+
+@media(max-width: 440px) and (max-height: 950px) and (min-height: 880px){
+    .mob-nav{
+        margin-top: -10vh !important; 
+    }
+    .navbar_title{
+        margin-bottom: 1vh !important;
+    }
+}
+
+/* se */
+
+@media(max-width: 410px) and (max-height: 730px){
+    .mob-nav{
+        margin-top: -24vw !important; 
+    }
+    .navbar_title{
+        margin-bottom: 1vw !important;
+    }
+}
+
+/* iphone5 */
+@media(max-width: 340px) and (max-height: 580px) and (min-height: 520px) and (min-width: 280px){
+    .mob-nav{
+        margin-top: -17vh !important; 
+    }
+}
+

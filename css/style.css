@@ -332,32 +332,43 @@ img {
         width: 90% !important;
     }
 
-    .contact_deal {
-        font-size: 7vw !important;
-        line-height: 9vw !important;
-        margin-left: 6vw !important;
+    .contact_review_container {
+        margin-right: 5vw !important;
         margin-top: 4vw !important;
+    }
+
+    .contact_review {
+        height: 200vw !important;
+        width: 90% !important;
+    }
+
+
+    .contact_deal {
+        font-size: 6vw !important;
+        line-height: 9vw !important;
+        margin-top: 4vw !important;
+        padding-left: 5vw !important;
+        padding-right: 5vw !important;
+
     }
 
     .contact_nummail {
         font-size: 5.4vw !important;
         line-height: 9vw !important;
-        margin-left: 0vw !important;
     }
 
     .contact_tel_img {
-        width: 4vw !important;
+        width: 6vw !important;
     }
 
     .contact_email_img {
-        width: 5vw !important;
+        width: 8vw !important;
     }
 
     .contact_wp_img {
         width: 15vw !important;
-        margin-top: -2vh !important;
-        margin-left: -2vw !important;
-        margin-bottom: 3vh !important;
+        margin-top: -5.3vh !important;
+        margin-left: 0vw !important;
     }
 
     .footer {
@@ -391,9 +402,8 @@ img {
 
     .contact_wp_img {
         width: 15vw !important;
-        margin-top: -3vh !important;
-        margin-left: -2vw !important;
-        margin-bottom: 3vh !important;
+        margin-top: -6vh !important;
+        margin-left: 0vw !important;
     }
 }
 
